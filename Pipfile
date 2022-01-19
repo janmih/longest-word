@@ -4,21 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-nose = "*"
-requests = "*"
-<<<<<<< HEAD
-gunicorn = "*"
-=======
->>>>>>> http-server
 flask = "*"
 
 [dev-packages]
-nose = "*"
-pylint = "*"
-astroid = "*"
 
 [requires]
 python_version = "3.8"
-
-[pipenv]
-allow_prereleases = true
